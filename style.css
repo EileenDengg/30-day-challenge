@@ -1,0 +1,137 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container {
+    width: 70%;
+    margin: 50px auto;
+}
+.main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.name-container {
+	display: flex;
+	align-items: center;
+}
+.name {
+	width: 500px;
+	margin-right: 10px;
+}
+.name h1 {
+    color: rgb(0, 106, 166);
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 18px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.name p {
+    color: black;
+	opacity: 70%;
+    font-size: 14px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	line-height: 24px;
+}
+.avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 0px;
+    margin-right: 30px;
+}
+.info li {
+	margin: 10px 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 14px;
+	opacity: 70%;
+	line-height: 20px;
+}
+hr {
+	background-color: rgb(0, 106, 166);
+    border: 1.6px solid rgb(0, 106, 166);
+    margin: 18px 0px;
+	opacity: 60%;
+}
+.content {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 20px;
+}
+.title {
+	display: flex;
+    width: 25%;
+	align-items: center;
+	margin: 20px;
+}
+h2 {
+	color: rgb(0, 106, 166);
+    font-size: 30px;
+    font-weight: 600;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	line-height: 1.3em;
+}
+.text {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    width: 75%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	opacity:70%;
+	line-height: 1.8em;
+}
+.text span {
+	color: rgb(0, 106, 166);
+}
+.footer ul {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+.footer ul i {
+    font-size: 30px; 
+    color: rgb(0, 106, 166);
+    margin: 0px 20px;
+}
+.footer ul i:hover {
+    color: rgb(106, 185, 231);
+}
